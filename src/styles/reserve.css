@@ -1,0 +1,191 @@
+/* Reseravtion styling begins here */
+
+.reserve-container{
+   width: 900px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   box-sizing: border-box;
+   margin-top: 80px;
+}
+
+.reservation-hero{
+    margin-top: 5px;
+  }
+
+  .components-containers{
+   
+    align-items: center;
+    
+    color: #ffffff;
+  }
+  
+  
+  /* BookiForm styling begins here */
+  
+  .booking-form{
+    width: 900px;
+    height: 720px;
+    padding: 40px auto;
+    background-color: #495e57; 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    box-sizing: border-box; 
+    margin-bottom: 0px;
+    border: 2px solid;
+    border-color: #F4CE14;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    margin-top: 60px;
+    border-bottom: 4px #ffffff;
+
+  }
+  
+  .input-wrapper{
+    padding: 10px;
+  }
+
+
+  .summary-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid;
+    border-color: #F4CE14;
+    margin-top: 20px;
+    border-bottom: 0px;
+   
+
+  }
+
+  #reservation-button{
+    background-color: #F4CE14;
+    height: 32px;
+    width: 12rem;
+    border-radius: 20px;
+    font-family: Karla, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  #date-input{
+   margin-left: 80px; padding-left: 30px;
+  }
+  #time-input{
+   margin-left: 76px; padding-left: 30px;
+  }
+  #guests{
+   margin-left: 71px; padding-left: 30px;
+  }
+  .booking-options{
+   margin-left: 100px; padding-left: 30px;
+  }
+  .booking-textarea{
+   margin-left: 11px; padding-left: 30px;
+  }
+  .buttons-container{
+    display: flex;
+    
+    flex-direction: row;
+  }
+  #reset-button{
+    background-color: blue;
+    height: 32px;
+    width: 12rem;
+    border-radius: 20px;
+    font-family: Karla, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 40px;
+  }
+
+  /*Confirm styling begins here*/
+
+  .confirm-container{
+    width: 900px;
+    height: 450px;
+    padding: 40px auto;
+    padding-top: 40px;
+    background-color: #F4CE14; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box; 
+    margin-top: 80px; 
+    color: #000;
+    font-family: Karla, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  #confirm-button{
+    background-color: #495e57;
+    height: 32px;
+    width: 12rem;
+    border-radius: 20px;
+    font-family:  markazi, serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #FFFFFF;
+  }
+
+  #firstname{
+    margin-left: 70px;
+  }
+  #lastname{
+    margin-left: 70px;
+  }
+  #phone{
+    margin-left: 65px;
+  }
+  #email{
+    margin-left: 103px;
+  }
+
+
+  /* Success dtyling begins here*/
+
+  .success-container{
+    width: 900px;
+    height: 350px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F4CE14;
+
+  }
+
+  .box{
+    width: 700px;
+    margin: 20px 0;
+    padding: 20px;
+
+  }
+
+  .h-success{
+    font-family: Markazi, serif;
+    font-weight: bolder;
+    color: green;
+    font-size: 36px;
+  }
+
+  .p-succes{
+    font-family: Karla, sans-serif;
+    font-weight:bold;
+    font-size: 24px;
+    color: #495e57;
+  }
+
+  .greek-image{
+    width: 900px;
+    height: 350px;
+  }

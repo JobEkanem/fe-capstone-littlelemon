@@ -1,0 +1,97 @@
+/* Menu styling begins here */
+.menu-container{
+    width: 900px;
+    height: 350px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    background-color: #F4CE14;
+
+  }
+
+  .box{
+    width: 700px;
+    margin: 20px 0;
+    padding: 50px;
+    margin-left: 50px;
+    align-items: center;
+
+  }
+
+  .h-menu{
+    font-family: Markazi, serif;
+    font-weight: bolder;
+    color: green;
+    font-size: 36px;
+  }
+
+  .p-menu{
+    font-family: Karla, sans-serif;
+    font-weight:bold;
+    font-size: 24px;
+    color: #495e57;
+  }
+
+
+  /* Order styling begins here */
+
+.order-container{
+    width: 900px;
+    height: 350px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    background-color: #F4CE14;
+
+  }
+
+ 
+
+  .h-order{
+    font-family: Markazi, serif;
+    font-weight: bolder;
+    color: green;
+    font-size: 36px;
+  }
+
+  .p-order{
+    font-family: Karla, sans-serif;
+    font-weight:bold;
+    font-size: 24px;
+    color: #495e57;
+  }
+
+
+   /* Order styling begins here */
+
+.login-container{
+    width: 900px;
+    height: 350px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    background-color: #F4CE14;
+
+  }
+
+ 
+
+  .h-login{
+    font-family: Markazi, serif;
+    font-weight: bolder;
+    color: green;
+    font-size: 36px;
+  }
+
+  .p-login{
+    font-family: Karla, sans-serif;
+    font-weight:bold;
+    font-size: 24px;
+    color: #495e57;
+  }

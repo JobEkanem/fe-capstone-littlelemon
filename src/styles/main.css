@@ -1,0 +1,305 @@
+/* Main styling start */
+.main {
+ 
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    box-sizing: border-box;
+  }
+  
+  
+   /* Hero section styling begins here */
+  
+   .hero {
+    width: 900px;
+    height: 400px;
+    background-color: #495e57;
+    display: flex;
+    margin-top: 80px;
+    box-sizing: border-box;
+  }
+  
+  .left-section {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+    
+    
+  }
+  
+  .right-section {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 60px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-top: 0.2rem;
+    font-family: Markazi, serif;
+    color: #f4ce14;
+    padding-left: 50px;
+    margin-bottom: 0.1rem;
+  }
+  
+  .location {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 0px;
+    font-family: Markazi, serif;
+    
+  }
+  
+  .description {
+    font-size: 0.9rem;
+    font-family: Karla, sans-serif;
+    color: #fff;
+    padding-left: 50px;
+    padding-right: 120px;
+    margin-bottom: 2.5rem;
+  }
+  
+  .cta-button {
+    background-color: #f4ce14;
+    color: #333;
+    border: none;
+    width: 12rem;
+    height: 24px;
+    margin-left: 75px;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #495e57;
+    color: white;
+  }
+  
+  .hero-image{
+    width: 210px;
+    height: 400px;
+    border-radius: 20px;
+    margin-top: 60px;
+  }
+  
+  /* Hero section styling ends here */
+
+  /* Specials section styling begins here*/
+
+/* Specials Component */
+.specials {
+    width: 860px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 0px;
+    box-sizing: border-box;
+  }
+  
+  .specials-title-button{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .specials__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Markazi, serif;
+    margin-left: 30px;
+  }
+  
+  .specials__button {
+    width: 12rem;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Karla, sans-serif;
+    color: black;
+    background-color: #f4ce14;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-right: 70px;
+    cursor: pointer;
+  }
+  
+  .specials__columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .specials__column {
+    flex-basis: 30%;
+    background-color: #edefee;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .specials__image {
+    width: 266px;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  .specials__name {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Markazi, serif;
+  }
+  
+  .specials__description{
+    font-size: 0.8rem;
+    font-family: Karla, sans-serif;
+    padding: 0 10px;
+  
+  }
+  
+  .meals-price{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .specials__price{
+    color: #EE9972;
+  }
+  
+  /* Specials Component styling ends here*/
+
+   /* Testimonials Component styling begins here*/
+ .testimonials {
+    width: 900px;
+    background-color: #edefee;
+    margin: 0px 20px;
+    margin: 20px;
+    margin-bottom: 0px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .testimonials__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Markazi, serif;
+    margin: 0;
+  }
+  
+  .testimonials__profiles {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .testimonials__profile {
+    flex-basis: calc(25% - 30px);
+  }
+  
+  .testimonials__name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Markazi, serif;
+    margin-top: 0;
+    margin-bottom: 10
+  }
+  .testimonials__image{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+  }
+  .testimonials__testimony{
+    font-family: Karla, sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+  }
+  
+  
+  /* Testimonials Component styling ends here*/
+  
+    
+  /* Styling for About Componenet begins here*/
+
+  .about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    margin-top: 0;
+    background-color: #F4CE14;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .about__left {
+    flex: 1;
+  }
+  
+  .about__right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  
+  .about__name {
+    font-family: Markazi, serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .about__location {
+    font-family: Markazi, serif;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .about__history {
+    font-family: Karla, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  
+  .about__owner {
+    width: 100%;
+    height: auto;
+   
+  }
+  
+  .about-owner-bottom {
+    width: 160px;
+    height: 160px;
+    padding-left: 110px;
+    margin-bottom: 30px;
+    
+    
+  }
+  
+  .about-owner-top {
+    width: 160px;
+    height: 160px;
+    padding-left: 250px;
+    margin-top: 40px;
+    
+    
+  }
+  
+/* About Component styling ends here*/
