@@ -72,7 +72,7 @@
 }
 
 /* Media Query for screens smaller than 768px */
-@media (max-width: 450px) {
+@media (max-width: 650px) {
   .nav.menu-open {
     display: flex;
     flex-direction: column;
@@ -131,7 +131,7 @@
     }
   
     /* Media Query for screens smaller than 768px */
-    @media (max-width: 767px) {
+    @media (max-width: 650px) {
       .header {
         width: 100%;
         padding: 0 10px;
